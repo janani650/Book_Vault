@@ -15,6 +15,10 @@
     <div class="navbar">
         <h1>Booksky</h1>
     </div>
+
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search by title">
+</div>
     <div class="container">
         <div class="book-container">
             <h2>Rich dad Poor dad</h2>
@@ -22,6 +26,8 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt qui id laborum harum fuga, neque eum ut sint totam, dolorum earum porro quas quisquam? Laboriosam harum dolorem quidem mollitia.
             </p>
             <button onclick="deletebook(event)">Delete</button>
+            <button onclick="editbook(event)">Edit</button>
+
         </div>
 </div>
 
@@ -35,6 +41,7 @@
         <button id="add-book">ADD</button>
         <button id="cancel-popup">CANCEL</button>
         
+        
     </form>
 </div>   
 
@@ -42,5 +49,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
